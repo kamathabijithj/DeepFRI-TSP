@@ -1,10 +1,9 @@
 """
 
 DeepFRI TESTING CODE
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
-
 
 from src.utils import *
 from src.testing_module import *
@@ -82,7 +81,11 @@ errors = []
 np.random.seed(20)
 relative_minimal_distance = 0.04
 grid = np.arange(0, 1, relative_minimal_distance)
-t_continuous = np.sort(grid[np.random.permutation(np.arange(grid.size))[:params.N].astype(int)].reshape(-1))
+t_continuous = np.sort(
+    grid[np.random.permutation(np.arange(grid.size))[: params.N].astype(int)].reshape(
+        -1
+    )
+)
 
 forward_mtx = np.exp(
     1j

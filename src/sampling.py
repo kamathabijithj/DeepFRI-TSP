@@ -1,13 +1,14 @@
 """
 
 HELPER FUNCTIONS FOR DATASET GENERATION FOR TRAINING DeepFRI
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 
 import torch
 import numpy as np
 from src.utils import dirichlet, emoms
+
 
 def generate_samples(a_k, t_k, N, T, sampling_times):
     """Generate samples of a dirichlet filtered dirac comb

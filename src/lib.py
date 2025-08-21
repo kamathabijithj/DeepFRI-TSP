@@ -1,7 +1,7 @@
 """
 
 NEURAL NETWORK COMPONENTS FOR DeepFRI
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 
@@ -14,6 +14,7 @@ from src.fri_algorithms import cadzow_ls_torch
 from complexPyTorch.complexLayers import ComplexLinear
 
 import matplotlib.pyplot as plt
+
 
 class ComplexSoftShrink(nn.Module):
     """A noise-level dependent softshrink activation layer

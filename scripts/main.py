@@ -1,7 +1,7 @@
 """
 
 DeepFRI NETWORK TRAINING CODE
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 

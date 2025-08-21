@@ -1,7 +1,7 @@
 """
 
 F-CPGD AND BENCHMARKS TESTING CODE
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 
@@ -52,7 +52,7 @@ test_data, a, t, parent_dir = load_data(
 a_kmax = np.max(np.abs(a), axis=1)
 
 Y_data = test_data[:][0]
-x_data = test_data[:][1] 
+x_data = test_data[:][1]
 a_data = torch.Tensor(a_kmax)
 dset = torch.utils.data.TensorDataset(Y_data, x_data, a_data)
 
@@ -71,7 +71,11 @@ errors = []
 np.random.seed(20)
 relative_minimal_distance = 0.04
 grid = np.arange(0, 1, relative_minimal_distance)
-t_continuous = np.sort(grid[np.random.permutation(np.arange(grid.size))[:params.N].astype(int)].reshape(-1))
+t_continuous = np.sort(
+    grid[np.random.permutation(np.arange(grid.size))[: params.N].astype(int)].reshape(
+        -1
+    )
+)
 
 forward_mtx = np.exp(
     1j
@@ -81,7 +85,9 @@ forward_mtx = np.exp(
     / params.T
 )
 
-print(f"####################### Testing {params.algorithm} {params.index} ####################### ")
+print(
+    f"####################### Testing {params.algorithm} {params.index} ####################### "
+)
 for i, psnr in enumerate(psnrs):
     print(f"PSNR={psnr}")
 

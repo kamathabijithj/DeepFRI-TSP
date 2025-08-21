@@ -1,7 +1,7 @@
 """
 
 DATASET GENERATION FOR DeepFRI
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 
@@ -10,6 +10,7 @@ import os
 import numpy as np
 
 from src.sampling import *
+
 
 def generate_K2(relative_minimal_distance, mode):
     """Generates two diracs

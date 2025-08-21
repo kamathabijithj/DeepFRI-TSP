@@ -1,7 +1,7 @@
 """
 
 TESTING MODULES FOR DeepFRI
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 Contains parallelisable functions to test FRI reconstruction algorithms
 
@@ -13,6 +13,7 @@ locations and the ground truth locations of the diracs.
 import numpy as np
 from src.utils import *
 from src.fri_algorithms import *
+
 
 def test_fri_algorithm(i, Y_noisy, t, G, M, K, T, algorithm, use_emoms=False):
     """ """
@@ -39,7 +40,7 @@ def test_fri_algorithm(i, Y_noisy, t, G, M, K, T, algorithm, use_emoms=False):
             P=M,
             tau=tau,
             rank=K,
-            rho=np.linalg.norm(np.squeeze(Y),2),
+            rho=np.linalg.norm(np.squeeze(Y), 2),
             init=init,
             tol=1e-12,
             num_iter=50,

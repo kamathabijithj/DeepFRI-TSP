@@ -153,7 +153,7 @@ def adj_toeplitzification(x, N, P):
 
     offsets = -(np.arange(1, N + 1) - 1 - P)
     out = np.zeros(shape=(N,), dtype=x.dtype)
-    for (i, m) in enumerate(offsets):
+    for i, m in enumerate(offsets):
         out[i] = np.sum(np.diagonal(x, offset=m))
 
     return out

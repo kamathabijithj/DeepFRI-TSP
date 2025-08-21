@@ -1,7 +1,7 @@
 """
 
 GENERATE DATASETS FOR TRAINING DeepFRI
-Author: Sharan Patil, Indian Institute of Science
+Author: Sharan Basav Patil, Indian Institute of Science
 
 """
 
