@@ -1,7 +1,7 @@
 """
 
 F-CPGD AND BENCHMARKS TESTING CODE
-Author: Sharan Basav Patil, Indian Institute of Science
+Author: Sharan Patil, Indian Institute of Science
 
 """
 

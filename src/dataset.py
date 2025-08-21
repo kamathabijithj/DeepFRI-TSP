@@ -1,7 +1,7 @@
 """
 
 DATASET GENERATION FOR DeepFRI
-Author: Sharan Basav Patil, Indian Institute of Science
+Author: Sharan Patil, Indian Institute of Science
 
 """
 
