@@ -2,7 +2,7 @@
 This repository contains a reproducible PyTorch implementation for the paper: https://ieeexplore.ieee.org/abstract/document/11080367. 
 
 Code authors:
-[Sharan Basav Patil](mailto:sharanbasav23@gmail.com) and [Abijith J. Kamath](mailto:abijithj@iisc.ac.in), Indian Institute of Science
+[Sharan Basav Patil](https://github.com/shararan), Imperial College London and [Abijith J. Kamath](mailto:abijithj@iisc.ac.in), Indian Institute of Science
 
 ### 1. Requirements
 
