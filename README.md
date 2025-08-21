@@ -4,6 +4,8 @@ This repository contains a reproducible PyTorch implementation for the paper: ht
 Code authors:
 [Sharan Basav Patil](https://github.com/shararan), Imperial College London and [Abijith J. Kamath](mailto:abijithj@iisc.ac.in), Indian Institute of Science
 
+At the time of developing this code, [Sharan Basav Patil](https://github.com/shararan) was a Project Associate at the Spectrum Lab, Indian Institute of Science.
+
 ### 1. Requirements
 
 This work requires a modified version of the ComplexPyTorch library (coming soon).
