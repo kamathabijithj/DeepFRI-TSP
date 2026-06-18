@@ -8,7 +8,7 @@ At the time of developing this code, [Sharan Basav Patil](https://github.com/sha
 
 ### 1. Requirements
 
-This work requires a modified version of the ComplexPyTorch library (coming soon).
+This work requires a modified version of the ComplexPyTorch library that implements complex layers using complex128 floating point operations.
 
 ### 2. Prepare training data
 

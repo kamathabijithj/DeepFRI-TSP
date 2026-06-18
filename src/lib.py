@@ -11,7 +11,7 @@ import torch.nn as nn
 
 from tqdm import tqdm
 from src.fri_algorithms import cadzow_ls_torch
-from complexPyTorch.complexLayers import ComplexLinear
+from complexLayers import ComplexLinear
 
 import matplotlib.pyplot as plt
 
